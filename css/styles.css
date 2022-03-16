@@ -6,15 +6,36 @@
 /* Styles for the body */
 
 body {
-	font-family: Lato, "Open Sans", Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
-	color: #202030;
+	font-family: Lato, Roboto, "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #1A2B27;
 	background-color: #f8f8fc;
 }
 
+h1 {
+	font-family: futura-pt, sans-serif;
+	font-weight: 400;
+	font-style: italic;	
+	text-shadow: 5px 5px #B2D3C2;
+	font-size: 50px;
+}
+
+h5 {
+	font-family: futura-pt-condensed,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 24px;
+}
+
+h2 {
+	font-family: futura-pt, sans-serif;
+	font-weight: 400;
+	font-style: normal;	
+	font-size: 35px;
+}
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
-    background-color: #e0f0ff;
+    background-color: #86B7AC;
 }
 
 .resume-main {
@@ -22,7 +43,7 @@ body {
 }
 
 .resume-aside {
-	background-color: #fff0e0;
+	background-color: #C2DAD5;
 }
 
 /* Styles for lists in the document */
