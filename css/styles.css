@@ -15,7 +15,7 @@ h1 {
 	font-family: futura-pt, sans-serif;
 	font-weight: 400;
 	font-style: italic;	
-	text-shadow: 5px 5px #B2D3C2;
+	text-shadow: 5px 5px #D2FFF5;
 	font-size: 50px;
 }
 
@@ -31,6 +31,11 @@ h2 {
 	font-weight: 400;
 	font-style: normal;	
 	font-size: 35px;
+	color: #0B3D3D
+}
+
+h6 {
+	 
 }
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
@@ -49,7 +54,7 @@ h2 {
 /* Styles for lists in the document */
 
 .biography-details li::before, .skill-list li::before {
-	content: ">";
+	content: "*";
 	font-weight: 800;
 	display: inline-block;
 	width: 1em;
@@ -69,4 +74,19 @@ h2 {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+/* Unvisited Link */
+a:link {
+	color:navy
+}
+
+/* Mouse hover over Link */
+a:hover {
+	color: #EE7623
+}
+
+/* Language Progress List */
+.border-2 {
+	border-color: #356A6A !important;
 }
